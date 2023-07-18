@@ -1,5 +1,3 @@
-# javascript-intro-challenges
-
 # Javascript Intro Challenges
 
 This repository holds the vanilla JavaScript pair programming challenges for the Echo 2023 cohort.

@@ -19,3 +19,9 @@ console.log(yourName.includes ("e"))
 console.log(yourName.charAt (1))
 
 console.log(yourName.toUpperCase ())
+
+const theQuestion = "life, the universe, and everything"
+
+const theAnswer = 42
+
+console.log()

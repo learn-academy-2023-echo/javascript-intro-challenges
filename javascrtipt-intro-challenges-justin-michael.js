@@ -19,7 +19,9 @@ var mySuperHeroName = "The Flash"
 // Write the code that will log whether your string includes the letter "e"?
     console.log(mySuperHeroName.includes("e"))
 // Write the code that will log the character at the first index of the string.
+    console.log(mySuperHeroName[0])
 // Write the code that will log the string in all uppercase letters.
+    console.log(mySuperHeroName.toUpperCase())
 // Consider the variables:
 
 // const theQuestion = "life, the universe, and everything"

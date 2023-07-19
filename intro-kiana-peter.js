@@ -35,6 +35,7 @@ console.log(myName.toUpperCase())
 
 // const theQuestion = "life, the universe, and everything"
 // const theAnswer = 42
+
 // Write the code that will log theAnswer divided by 2.
 // Write the code that will log the whole number remainder of theAnswer when divided by 3.
 // Write the code that will log the length of theQuestion.

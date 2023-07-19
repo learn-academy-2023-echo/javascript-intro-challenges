@@ -38,13 +38,18 @@ const theAnswer = 42
 // Write the code that will log the index of the character "f" in the theQuestion. 
 // console.log(theQuestion.includes("f"))
 // Write the code that will log the index of the second comma in the theQuestion. 
-
+// console.log(theQuestion.lastIndexOf(","))
 // Write the code that will log the concatenation of the two variables. 
-
+// console.log(theQuestion + " " + theAnswer + ".")
 // Write the code that will log the character "l" from theQuestion. 
-
+// console.log(theQuestion[0])
 // Write the code that will extract "the universe" from theQuestion. 
-
+// console.log(theQuestion.indexOf("the universe"))
+// console.log(theQuestion.lastIndexOf(","))
+// let secondComma = theQuestion.lastIndexOf(",")
+// let indexOfThe = theQuestion.indexOf("the")
+// console.log(theQuestion.substring(indexOfThe, secondComma))
+// console.log(theQuestion.substring(6,18))
 // Write the code that will extract "everything" from theQuestion. 
 
 // Write the code that will log the last character of theQuestion without manually counting the number of characters. 

@@ -61,7 +61,7 @@ console.log(theQuestion.lastIndexOf(","))
 console.log(theQuestion + theAnswer)
 
 // Write the code that will log the character "l" from theQuestion.
-console.log(theQuestion[0])
+console.log(theQuestion.charAt(0))
 
 // Write the code that will extract "the universe" from theQuestion.
 console.log(theQuestion.slice(6, 18))

@@ -99,7 +99,40 @@ console.log(yelling("ahhhhh"))
 
 // Write a function named helloWorld that takes a language code (e.g. "es", "de", "en") as an argument and returns "Hello World!" in the given language. Ensure you function works for at least 5 languages.
 // Have your function default to returning English.
-// The Pluralizer
 
+    let portugese = "Olá Mundo"
+    let hawaiian = "Aloha Honua"
+    let indonesian = "Halo Dunia!"
+    let japanese = "こんにちは世界"
+    let italian = "Ciao mondo!"
+
+    const helloWorld = (code) =>{ 
+        if (code === portugese || code ===  hawaiian || code === indonesian || code === japanese || code === italian){
+            return `${code} is Hello World! in English`
+        }   
+    }
+    console.log(helloWorld(portugese))
+
+// The Pluralizer
 // Write a function named pluralizer that takes a number and a singular noun as arguments and returns the number and pluralized form of the noun, if necessary.
 // Enhance your function so it can handle a few collective nouns like "sheep", "goose", "child", "person" and "species".
+
+    const pluralizer = (num, noun) => {
+        if (num > 1){
+            if (noun === "sheep"){
+                return num + " " + noun
+            } else if ( noun === "species" ){
+                return num + " " + noun
+            } else if ( noun === "goose" ){
+                return num + " geese"
+            } else if ( noun === "child"){
+                return num + " children"
+            } else if ( noun === "person"){
+                return num + " people"
+            }
+        } else {
+            return num + " " + noun
+        }
+    }
+
+    console.log(pluralizer(23120, "goose"))

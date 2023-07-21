@@ -65,7 +65,19 @@
 // console.log(divibleBy(10, 5))
 // console.log(divibleBy(5, 10))
 // Write a function named assignGrade that takes a number score as an argument and returns the letter grade for the score.
-
+//input: assignGrade(numscore)
+//output: a letter
+const assignGrade = (numScore) => {
+    if (numScore >= 3) {
+        return 'A' 
+    } else if (numScore >= 2) {
+        return 'B'
+    } else {
+        return 'F'
+    }
+}
+console.log(assignGrade(3))
+console.log(assignGrade(1))
 // Write a function named isLonger that takes two strings as arguments and returns the string that contains the most characters.
 
 // Write a function named greaterNum that takes two numbers as arguments and returns whichever number is the greater (higher) number.

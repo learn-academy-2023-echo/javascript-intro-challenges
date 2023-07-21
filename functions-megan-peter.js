@@ -43,15 +43,73 @@
 // console.log(divisibleBy(28, 34))
 
 // Write a function named assignGrade that takes a number score as an argument and returns the letter grade for the score.
+// const assignGrade = (score) => {
+//     if (score > 90){
+//         return 'A'
+//     }else if (score <= 90 && score >= 80){
+//         return 'B'
+//     }else{
+//         return 'C'
+//     }
+// }
+// console.log(assignGrade(85))
 
 // Write a function named isLonger that takes two strings as arguments and returns the string that contains the most characters.
+// const isLonger = (str1, str2) => {
+//     if (str1.length > str2.length){
+//         return str1;
+//     }else if (str2.length > str1.length){
+//         return str2; 
+//     }else{
+//            return "They are equal"
+//     }
+// }
+// console.log(isLonger("Peter is smart", "Peter likes to hike"))
 
 // Write a function named greaterNum that takes two numbers as arguments and returns whichever number is the greater (higher) number.
+// const greaterNum = (num1, num2) => {
+//     if (num1 > num2){
+//         return num1; 
+//     }else if (num2 > num1){
+//         return num2;
+//     }else {
+//         return "They are equal"
+//     }
+// }
+// console.log(greaterNum(23, 21))
 
 // Write a function named yelling that takes a string as an argument and return the string in all uppercase case letters.
+// const yelling = (str) => {
+//     return str.toUpperCase()
+// }
+// console.log(yelling("I had a blue coffee mug"))
 
 // 🏔 Stretch Goals
 // The World Translator
 
 // Write a function named helloWorld that takes a language code (e.g. "es", "de", "en") as an argument and returns "Hello World!" in the given language. Ensure you function works for at least 5 languages.
 // Have your function default to returning English.
+
+// const helloWorld = (lang) => {
+//     if (lang === "es"){
+//         return "Hola Mundo!"
+//     }else if (lang === "de"){
+//         return "Hallo Welt!"
+//     }else if (lang === "fr"){
+//         return "Bonjour Le Monde!"
+//     }else if (lang === "it"){
+//         return "Ciao Mondo!"
+//     }else{
+//         return "Hello World!"
+//     }
+// }
+// console.log(helloWorld("es"))
+
+// The Pluralizer
+
+// Write a function named pluralizer that takes a number and a singular noun as arguments and returns the number and pluralized form of the noun, if necessary.
+// Enhance your function so it can handle a few collective nouns like "sheep", "goose", "child", "person" and "species".
+
+const pluralizer = (num, noun) => {
+    
+}

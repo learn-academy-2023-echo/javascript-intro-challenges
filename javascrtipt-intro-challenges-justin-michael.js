@@ -24,8 +24,8 @@ var mySuperHeroName = "The Flash"
     console.log(mySuperHeroName.toUpperCase())
 // Consider the variables:
 
-// const theQuestion = "life, the universe, and everything"
-// const theAnswer = 42
+const theQuestion = "life, the universe, and everything"
+const theAnswer = 42
 // Write the code that will log theAnswer divided by 2.
 // Write the code that will log the whole number remainder of theAnswer when divided by 3.
 // Write the code that will log the length of theQuestion.

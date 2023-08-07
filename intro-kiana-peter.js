@@ -33,8 +33,10 @@ console.log(myName.toUpperCase())
 
 // Consider the variables:
 
+
 const theQuestion = "life, the universe, and everything"
 const theAnswer = 42
+
 
 // Write the code that will log theAnswer divided by 2.
 console.log(theAnswer / 2)
